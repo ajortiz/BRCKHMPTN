@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+	  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	   <h1 style="font-style: bold; text-align: center; color: white; font-weight: bold; font-family: Avenir; font-size: 100px;">Z I P P E R </h1>
+   
+   <style>
+   	body {
+    background-image: url("imgs/backgrnd.jpg");
+    background-repeat: repeat;
+
+	}
+   </style>
+
+   </head>
+
+
+	<body>
+
+
+	<div class="container">
+		<div class="row">
+  			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/joba.jpg" value="PLAY"  onmouseenter="playJoba()" onmouseleave="pauseJoba()">
+				<audio id="audioJoba" src="audio/joba.mp4" ></audio>
+			</div>
+
+		
+  			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/romil2.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio> 
+			</div>
+
+
+  			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/kevin.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+		</div>
+		</br>
+		<div class="row">
+  			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/ameer.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+
+			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/bearface.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+
+			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/dom.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+		</div>
+		</br>
+		<div class="row">
+			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/jabari.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+
+			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/kiko.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+
+			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/matt.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+		</div>
+		</br>
+		<div class="row">
+			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/merlyn.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+
+			<div class="col-md-4">
+				<img class="img-responsive" height="200" width="200" src="imgs/roberto.jpg" value="PLAY"  onmouseenter="play()" onmouseleave="pause()">
+				<audio id="audio" src="audio/zipper.mp3" ></audio>
+			</div>
+
+		</div>
+	</div>
+
+	<script>
+	  function play(){
+	       var audio = document.getElementById("audio");
+	       audio.play();
+	  }
+	  function pause(){
+	       var audio = document.getElementById("audio");
+	       audio.pause();
+	 }
+	 function playJoba(){
+	       var audio = document.getElementById("audioJoba");
+	       audio.play();
+	  }
+	  function pauseJoba(){
+	       var audio = document.getElementById("audioJoba");
+	       audio.pause();
+	 }
+	</script>
+
+	 </body>
+
+
+
+</html>
