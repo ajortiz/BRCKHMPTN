@@ -1,5 +1,5 @@
 # BRCKHMPTN
-brockhampton fan work cause i'm on break from school, bored, and obbssessed. 
+brockhampton fan work cause i'm on break from school, bored, and obsessed. 
 
 live web page found here:
 https://brckhmptn-hover.firebaseapp.com/
